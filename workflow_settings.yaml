@@ -1,5 +1,0 @@
-defaultProject: ordinal-motif-420420
-defaultLocation: EU
-defaultDataset: raw
-defaultAssertionDataset: dataform_assertions
-dataformCoreVersion: 3.0.0-beta.4
