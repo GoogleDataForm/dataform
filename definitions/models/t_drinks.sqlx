@@ -1,14 +1,17 @@
 config {
   type: "table",
   schema: "dataform",
-   assertions: {
+  tags: ["daily"],
+  assertions: {
     uniqueKey: ["drink_id"],
-    nonNull: ["drink_id"],
+    nonNull: ["drink_id", "drink_name"],
     rowConditions: [
-      'date < "2024-05-20"',
+      'date >= "2014-05-01"',
       'calories < 500'
     ]
   }
+
+
 }
 SELECT *
 

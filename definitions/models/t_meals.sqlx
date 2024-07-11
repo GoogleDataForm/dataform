@@ -1,8 +1,8 @@
 config {
   type: "incremental",
   schema: "dataform",
-  uniqueKey: ["meal_id"]
-  
+  uniqueKey: ["meal_id"],
+  tags: ["daily"]
 }
 SELECT 
 meal_id, 
